@@ -4,7 +4,7 @@ from hueFunctions import Hue
 from secrets import *
 
 
-hue = Hue(hueDeviceId)
+hue = Hue(secretHueDeviceId)
 print hue.ipaddress
 
 
@@ -20,4 +20,6 @@ d2 = {
 }
 
 hue.setstate(d2, 3)
+
+
 

@@ -2,7 +2,7 @@ from bitClass import Bit as cloudbit
 from secrets import *
 # load bitAccessToken adn bitDeviceId from secrets.py file
 
-bit = cloudbit(bitAccessToken, bitDeviceId)
+bit = cloudbit(secretBitAccessToken, secretBitDeviceId)
 
 #for pct in bit.raw_stream():
 #    print pct.type
