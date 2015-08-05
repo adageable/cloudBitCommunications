@@ -48,4 +48,4 @@ class Bit:
     def url(self):
         return "https://api-http.littlebitscloud.cc/v3/devices/" + self.id
 
-
+# test

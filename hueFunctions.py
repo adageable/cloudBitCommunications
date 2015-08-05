@@ -12,3 +12,5 @@ class Hue:
 
     def stream(self):
         print "nothing"
+
+# test
